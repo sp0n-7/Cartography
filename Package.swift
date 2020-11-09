@@ -8,6 +8,6 @@ let package = Package(
         .library(name: "Cartography", targets: ["Cartography"])
     ],
     targets: [
-        .target(name: "Cartography", dependencies: ["UIKit", "Foundation"], path: "Cartography")
+        .target(name: "Cartography", path: "Cartography")
     ]
 )
