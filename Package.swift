@@ -10,5 +10,5 @@ let package = Package(
     targets: [
         .target(name: "Cartography", path: "Cartography")
     ],
-    swiftLanguageVersions: [v4_2]
+    swiftLanguageVersions: [.v4_2]
 )
